@@ -1,0 +1,59 @@
+
+    .border {
+        border: 3px solid;
+        color: black;
+        margin: auto;
+        height: 230px;
+        width: 500px;
+        
+    }
+   
+       .border1 {
+        border: 3px solid;
+        color: black;
+        margin: auto;
+        height: 400px;
+        width: 600px;
+        text-align: center;
+    }
+    .border{
+        /* display:flex;
+        flex-direction:row-reverse;
+        flex-flow: row wrap;
+        align-items: center; */
+        
+    }
+    .border input {
+       
+        vertical-align: middle;
+        background-color: #fff;
+      }
+        
+      .one{
+          
+          margin-right: 10px;
+      }
+     .two{
+         display: flex;
+         justify-content: flex-end;
+     }
+    .img img{
+         width: 150px;
+         height: 150px;
+         float:left
+     }
+     .style{
+         float: right;
+     }
+  .input{
+      margin-right:0px;
+      text-align:right;
+  }
+  
+  @border (min-width:570px){
+    section{
+      display:flex;
+      flex-direction:row-reverse;
+      text-aling:left;
+      max-width:45rem;
+    }
